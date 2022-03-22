@@ -32,7 +32,8 @@
 * git rm + file name: eliminar un archivo.
 * git restore + file name: restaurar un archivo eliminado.
 * git mv + file name + new file name: cambiar de nombre un archivo.
-* git status -s: ver estado actual especifico en el repositorio.
+* git status -s: muestra el estado actual de los archivos modificados.
+* git status: muestra los archivos que aun no han sido registrados.
 * git diff: para observar cambios realizados (salir con la tecla Q).
 * git diff --stage: para observar cambios ya hechos en el stage.
 * git log --online: muestra los comentarios de los cambios hechos en el commit en linea.
@@ -42,3 +43,6 @@
 * git checkout + nombreRama: para ingresar a dicha rama.
 * git checkout -b + nombreRama: rama secundaria para la realizacion de cambios antes de pasar estos cambios a la rama principal.
 * cat + file name: observar el contenido de un archivo.
+* git merge + nombreRama: agregar un archivo a una rama.
+* git reset --hard + #id: regresar a cualquier commit.
+* git push: subir a github repository, este comando es utilizado despues de que ya se encuentre identificado el repositorio.
