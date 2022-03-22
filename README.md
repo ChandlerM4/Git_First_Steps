@@ -39,3 +39,6 @@
 * got log: muestra los comentarios de los cambios hechos en el commit del mas reciente al mas antiguo.
 * git branch: muestra en que rama estamos.
 * git branch + nombreRama: crea una nueva rama.
+* git checkout + nombreRama: para ingresar a dicha rama.
+* git checkout -b + nombreRama: rama secundaria para la realizacion de cambios antes de pasar estos cambios a la rama principal.
+* cat + file name: observar el contenido de un archivo.
